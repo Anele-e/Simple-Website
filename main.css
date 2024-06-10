@@ -21,8 +21,17 @@ nav a:hover {
     color: orange;
 }
 h3 {
-    text-align: right;
+    text-align: center;
 }
 .home-color {
     background-color: aqua;
+}
+footer {
+    background-color: green;
+    color: black;
+    text-align: center;
+    padding: 20px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
 }
