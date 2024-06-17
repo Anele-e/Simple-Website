@@ -17,6 +17,13 @@ header {
     background-color: aqua;
     width: 100%;
 }
+.education-div {
+    min-height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aqua;
+}
 nav {
     display: flex;
     justify-content: space-around;
@@ -33,6 +40,11 @@ nav a:hover, nav a:focus {
 h3 {
     text-align: center;
 }
+h4 img {
+    width: 30px;
+    height: auto;
+    margin-left: 10px;
+}
 p {
     text-align: center;
 }
@@ -41,13 +53,6 @@ ul {
     text-align: center;
     list-style-position: outside;
     line-height: 1.6;
-}
- ul li {
-    background-image: url('../Anele-e.github.io/images/python-logo-only.png');
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: left center;
-    padding-left: 20px;
 }
 footer {
     background-color: aqua;
@@ -72,10 +77,29 @@ footer {
     background-color: aqua;
     padding: 20px;
 }
+.skills-list {
+    list-style-type: none;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+
+}
+.skills-list img {
+    width: 30px;
+    height: auto;
+    margin-right: 10px;
+
+}
 .projects-section {
     min-height: 150px;
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: whitesmoke;
+}
+#education-list {
+    list-style-type: none;
+    text-align: center;
+    list-style-position: outside;
+    line-height: 1.6;
 }
