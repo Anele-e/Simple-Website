@@ -134,19 +134,26 @@ footer {
     padding: 20px;
 }
 
-#certificates {
-    align-items: center;
-}
-#certificates ul {
-    list-style-type: none;
-    margin-bottom: 10px;
+#certificates-list {
     display: flex;
     align-items: center;
+    height: auto;
 }
-#certificates ul img {
+#certificates-list ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0;
+    display: flex;
+    text-align: center;
+}
+#certificates-list ul img {
     width: 30px;
     height: auto;
     margin-right: 10px;
+    vertical-align: middle;
+}
+#certificates-list ul li {
+    margin-bottom: 20px;
 }
 .skills-list {
     list-style-type: none;
