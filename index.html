@@ -7,44 +7,67 @@
     <link rel="stylesheet" href="main.css">
 </head>
 <body>
+    <div class="container">
     <header>
-        <nav>
-            <div>
-                <a href="#home">Home</a>
-                <a href="#about-me">About Me</a>
-                <a href="#education">Eduction</a>
-                <a href="#skills">Skills</a>
-                <a href="#projects">Projects</a>
-                <a href="#footer">Contacts</a>
+        <nav class="nav-bar">
+            <div class="buttons">
+                <button type="button" class="nav-item">
+                    <a href="#home">Home</a>
+                </button>
+                <button type="button" class="nav-item">
+                    <a href="#about-me">About Me</a>
+                </button>
+                <button type="button" class="nav-item">
+                    <a href="#education">Eduction</a>
+                </button>
+                <button type="button" class="nav-item">
+                    <a href="#certificates">Certificates</a>
+                </button>
+                <button type="button" class="nav-item">
+                    <a href="#skills">Skills</a>
+                </button>
+                <button type="button" class="nav-item">
+                    <a href="#projects">Projects</a>
+                </button>
+                <button type="button" class="nav-item">
+                    <a href="#footer">Contacts</a>
+                </button>
+                   
             </div>
         </nav>
     </header>
     <div class="home-section">
         <section id="home">
             <div class="intro">
-                <h1>Hi there, my name is Anele Dindili</h1>
-                <h2>I am a Data Engineering Student</h2>
+                <h1>Hello, I'm Anele Dindili</h1>
+                <h2>and I am a Data Engineering Student</h2>
+                <div class="profile-photo">
+                    <img src="images/image.jpeg" alt="profile-photo">
+            
+                </div>
             </div>
         </section>
+    </div>
     </div>
 
     <div class="about-section">
         <section id="about-me">
             <h3>About Me</h3>
             <div>
-                <p>I am currently enrolled as a Data Engineering student at the Umuzi Academy, where I am enhancing my expertise in the field of Computer Science and Data Engineering <br> repellat obcaecati dignissimos. Nihil laudantium aliquid ducimus perspiciatis quia, aspernatur qui molestias explicabo deleniti ex porro nobis provident deserunt, amet nisi.</p>
+                <p>I am currently enrolled as a Data Engineering student at the Umuzi Academy, where I am enhancing my expertise in the field of Computer Science and Data Engineering. <br>I am motivated in bringing my skills in a role where
+                    I can contribute in the development of innovative software solutions </p>
             </div>
         </section>
     </div>
     <div class="education-div">
         <section id="education">
             <h3>Eduction</h3>
-            <h4 class="umuzi-logo">Umuzi Academy<img src="images/umuzi-logo.jpeg" alt="umuzi-logo"></h4>
+            <h4 class="umuzi-logo"><img src="images/umuzi-logo.jpeg" alt="umuzi-logo">Umuzi Academy</h4>
             <ul id="education-list">
                 <li>National Certificate in Information Technology (System Development) (SAQA ID 48872)</li>
                 <li>April 2024 - Present</li>
             </ul>
-            <h4 class="us-logo">University of Stellenbosch <img src="images/Stellenbosch_University_New_Logo.jpg" alt="us-log"></h4>
+            <h4 class="us-logo"><img src="images/Stellenbosch_University_New_Logo.jpg" alt="us-log"> Stellenbosch University</h4>
             <ul id="education-list">
                 <li>Bsc Chemistry (Chemistry and Polymer)</li>
                 <li>February 2019 - Incomplete</li>
@@ -52,12 +75,26 @@
         </section>
     </div>
     <div>
-        <section>
+        <section id="certificates">
             <h3>Certificates</h3>
-            <ul>
-                <li>Python Basic</li>
-                <li>Python Intermediate</li>
-                <li>SQL Intermediate</li>
+            <ul class="cert-list">
+                <a href="https://www.hackerrank.com/certificates/89a94dd90f0d">
+                    <li class="cert-list">
+                        <img src="images/HackerRank-Logo-300-2-1621095421.png" alt="hackerank-logo">
+                        Python Basic HackeRank
+                    </li>
+                </a>
+                <a href="https://www.sololearn.com/certificates/CC-QQRDZBDQ">
+                    <li class="cert-list">
+                        <img src="images/sololearnlogo.jpeg">
+                        Python Intermediate SoloLearn
+                    </li>
+                </a>
+                <a href="https://www.sololearn.com/certificates/CC-3LLVERLE">
+                    <li class="cert-list">
+                        <img src="images/sololearnlogo.jpeg">SQL Intermediate SoloLearn
+                    </li>
+                </a>
             </ul>
         </section>
     </div>
@@ -78,13 +115,15 @@
     <div class="projects-section">
         <section id="projects">
             <h3>Projects</h3>
-            <p>This is just text for now</p>
+            <p>Projects in Development</p>
         </section>
     </div>
 
     <footer id="footer">
         <h3>Contact Me</h3>
-        <img src="/home/umuzirecruit/Anele-e.github.io/images/icons8-github-24.png" alt="github-logo"
+        <a href="https://github.com/Anele-e"><img src="/home/umuzirecruit/Anele-e.github.io/images/icons8-github-24.png" alt="github-logo"></a>
+        <a href="www.linkedin.com/in/anele-dindili"><img src="images/logo-linkdin.png" alt="linkdin-logo"></a>
+        <a href="aneledindil@mail.com"><img src="images/free-mail-icon-142-thumb.png" alt="mail-logo"></a>
     </footer>
     
 </body>
