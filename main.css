@@ -16,10 +16,10 @@ body {
 
 }
 .hello-intro h1 {
-    font-size: large;
+    font-size: larger;
 }
 .hello-intro h2 {
-    font-size: medium;
+    font-size: large;
 }
 /* .nav-bar {
     display: flex;
@@ -66,6 +66,7 @@ header {
     padding: 30px 10%;
 }
 .navi {
+    float: right;
     display: flex;
     justify-content: flex-end;
     align-items: center;
@@ -139,6 +140,8 @@ button:hover {
     height: auto;
     border-radius: 50px;
     justify-content: right;
+    pointer-events: none;
+    float: right;
 }
 
 h4 img {
