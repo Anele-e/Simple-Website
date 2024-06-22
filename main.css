@@ -1,26 +1,41 @@
 body {
     background-color: white;
     color: black;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Arial, sans-serif, Helvetica;
     margin: 0;
     font-size: 18px;
 }
+
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: lightgrey;
+    align-items: center;
+    color: black;
+    padding: 10px 0px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
 .container {
     display: inline;
     max-width: auto;
     margin: 0 auto;
     padding: 5px;
 }
+
 .hello-intro {
     max-width: 600px;
 
 }
+
 .hello-intro h1 {
     font-size: larger;
 }
+
 .hello-intro h2 {
     font-size: large;
 }
+
 /* .nav-bar {
     display: flex;
     background-color: whitesmoke;
@@ -54,25 +69,38 @@ nav a:hover, nav a:focus {
     text-decoration: underline;
     color: orange;
 } */
-h3, h4 {
+h3,
+h4 {
     text-align: center;
 }
-header {
+
+
+nav ul {
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
     display: flex;
-    justify-content: space-between;
-    background-color: lightgrey;
-    align-items: center;
-    color:black;
-    padding: 30px 10%;
+    justify-content: center;
 }
-.navi {
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+/* .navi {
     float: right;
     display: flex;
     justify-content: flex-end;
     align-items: center;
     background-color: lightgray;
     padding: 10px 20px;
-}
+} */
 button {
     font-weight: 600;
     color: white;
@@ -88,13 +116,14 @@ button:hover {
     background-color: green;
 
 }
-.nav-bar {
+
+/* .nav-bar {
     display: flex;
     list-style: none;
     margin: 0px;
     padding: 0px;
-}
-.nav-bar li {
+} */
+/* .nav-bar li {
     display: inline-block;
     padding: 0px 10px;
 }
@@ -102,24 +131,44 @@ button:hover {
     font-weight: 200;
     color: white;
     text-decoration: none;
-}
+} */
 
 
 .nav-bar li a:hover {
     color: blue;
 }
+
 .intro {
     display: flex;
     align-items: center;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    max-width: 1200px;
 }
-.intro h1, .intro h2 {
+.hello-intro {
+    text-align: left;
+    max-width: 600px;
+}
+.intro h1,
+p {
     margin-right: 30px;
 }
+
 .intro img {
     max-width: 100px;
     height: auto;
     margin-left: 20px;
 }
+
+#home {
+    padding: 20px 0px;
+}
+
+.intro p {
+    font-size: large;
+    color: rgb(2, 34, 34);
+}
+
 .home-section {
     height: 200px;
     display: flex;
@@ -128,6 +177,7 @@ button:hover {
     background-color: lightgrey;
     width: 100%;
 }
+
 .education-div {
     min-height: 150px;
     display: flex;
@@ -135,9 +185,11 @@ button:hover {
     align-items: center;
     background-color: lightgrey;
 }
+
 .profile-photo img {
-    width: 250px;
+    width: 150px;
     height: auto;
+    margin-left: 20px;
     border-radius: 50px;
     justify-content: right;
     pointer-events: none;
@@ -149,16 +201,19 @@ h4 img {
     height: auto;
     margin-left: 10px;
 }
+
 p {
     line-height: 1.6;
     text-align: center;
 }
+
 ul {
     list-style-type: none;
     text-align: center;
     list-style-position: outside;
     line-height: 1.6;
 }
+
 footer {
     background-color: lightgrey;
     color: black;
@@ -167,6 +222,7 @@ footer {
     margin-top: auto;
     width: auto;
 }
+
 .about-section {
     min-height: 150px;
     display: flex;
@@ -174,6 +230,7 @@ footer {
     align-items: center;
     background-color: whitesmoke;
 }
+
 .skills-section {
     min-height: 150px;
     display: flex;
@@ -187,23 +244,36 @@ footer {
     display: flex;
     align-items: center;
     height: auto;
+
 }
+
+#certificates-list ul li a {
+    text-decoration: none;
+    color: black;
+}
+
 #certificates-list ul {
     list-style-type: none;
     margin: 0px;
     padding: 0;
     display: flex;
     text-align: center;
+    justify-content: space-between;
 }
+
 #certificates-list ul img {
     width: 30px;
     height: auto;
     margin-right: 10px;
     vertical-align: middle;
 }
-#certificates-list ul li {
+
+div ul li {
     margin-bottom: 20px;
+    align-items: center;
+    justify-content: center;
 }
+
 .skills-list {
     list-style-type: none;
     margin-bottom: 10px;
@@ -218,6 +288,7 @@ footer {
     margin-left: 10px;
 
 }
+
 .projects-section {
     min-height: 150px;
     display: flex;
@@ -225,16 +296,19 @@ footer {
     align-items: center;
     background-color: whitesmoke;
 }
+
 #education-list {
     list-style-type: none;
     text-align: center;
     list-style-position: outside;
     line-height: 1.6;
 }
+
 footer img {
     width: 35px;
     height: auto;
 }
+
 footer img :nth-child(3) {
     width: 40px;
     height: 100px;
