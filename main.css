@@ -67,7 +67,7 @@ header {
 }
 .navi {
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-end;
     align-items: center;
     background-color: lightgray;
     padding: 10px 20px;
