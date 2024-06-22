@@ -35,7 +35,7 @@ body {
 .nav-item:hover {
     color:black;
 } */
-nav {
+/* nav {
     display: flex;
     justify-content: space-around;
     background-color: whitesmoke;
@@ -53,13 +53,59 @@ nav a {
 nav a:hover, nav a:focus {
     text-decoration: underline;
     color: orange;
-}
+} */
 h3, h4 {
     text-align: center;
 }
 header {
+    display: flex;
+    justify-content: space-between;
     background-color: lightgrey;
+    align-items: center;
     color:black;
+    padding: 30px 10%;
+}
+.navi {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: lightgray;
+    padding: 10px 20px;
+}
+button {
+    font-weight: 600;
+    color: white;
+    text-decoration: none;
+    background-color: gray;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    padding: 12px 24px;
+}
+
+button:hover {
+    background-color: green;
+
+}
+.nav-bar {
+    display: flex;
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+.nav-bar li {
+    display: inline-block;
+    padding: 0px 10px;
+}
+.nav-bar li a{
+    font-weight: 200;
+    color: white;
+    text-decoration: none;
+}
+
+
+.nav-bar li a:hover {
+    color: blue;
 }
 .intro {
     display: flex;
