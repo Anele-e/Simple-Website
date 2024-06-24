@@ -4,6 +4,9 @@ body {
     font-family: Arial, sans-serif, Helvetica;
     margin: 0;
     font-size: 18px;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding:0 20px
 }
 
 header {
@@ -16,59 +19,15 @@ header {
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
-.container {
-    display: inline;
-    max-width: auto;
+ .container {
+    max-width: 1200px;
     margin: 0 auto;
-    padding: 5px;
+    padding:0 20px;
 }
+.home-section, .about-section, .education-div, .projects-section, footer, .skills-projects, #certificates {
+    margin: 20px 0;
+} 
 
-.hello-intro {
-    max-width: 600px;
-
-}
-
-.hello-intro h1 {
-    font-size: larger;
-}
-
-.hello-intro h2 {
-    font-size: large;
-}
-
-/* .nav-bar {
-    display: flex;
-    background-color: whitesmoke;
-    border-radius: 60px;
-    padding: 10px 10px;
-} */
-/* .nav-item {
-    color: white;
-    text-decoration: none;
-    border-radius: 60px;
-}
-.nav-item:hover {
-    color:black;
-} */
-/* nav {
-    display: flex;
-    justify-content: space-around;
-    background-color: whitesmoke;
-    border-radius: 60px;
-    padding: 10px 10px;
-
-}
-nav a {
-    color: #555;
-    margin-right: auto;
-    margin-left: 0px;
-    border-radius: 50px;
-    text-decoration: none;
-}
-nav a:hover, nav a:focus {
-    text-decoration: underline;
-    color: orange;
-} */
 h3,
 h4 {
     text-align: center;
@@ -93,14 +52,6 @@ nav ul li a {
     font-weight: bold;
 }
 
-/* .navi {
-    float: right;
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    background-color: lightgray;
-    padding: 10px 20px;
-} */
 button {
     font-weight: 600;
     color: white;
@@ -117,54 +68,33 @@ button:hover {
 
 }
 
-/* .nav-bar {
-    display: flex;
-    list-style: none;
-    margin: 0px;
-    padding: 0px;
-} */
-/* .nav-bar li {
-    display: inline-block;
-    padding: 0px 10px;
-}
-.nav-bar li a{
-    font-weight: 200;
-    color: white;
-    text-decoration: none;
-} */
-
 
 .nav-bar li a:hover {
     color: blue;
 }
-
 .intro {
     display: flex;
     align-items: center;
+    justify-content: space-between;
     flex-wrap: wrap;
-    margin: 0 auto;
-    max-width: 1200px;
-}
-.hello-intro {
-    text-align: left;
-    max-width: 600px;
-}
-.intro h1,
-p {
-    margin-right: 30px;
 }
 
-.intro img {
-    max-width: 100px;
-    height: auto;
-    margin-left: 20px;
+.hello-intro {
+    max-width: 600px;
+
 }
+
+.hello-intro h1 {
+    font-size: larger;
+}
+
+
 
 #home {
     padding: 20px 0px;
 }
 
-.intro p {
+.hello-intro p {
     font-size: large;
     color: rgb(2, 34, 34);
 }
@@ -178,22 +108,14 @@ p {
     width: 100%;
 }
 
-.education-div {
-    min-height: 150px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: lightgrey;
-}
 
 .profile-photo img {
     width: 150px;
     height: auto;
     margin-left: 20px;
-    border-radius: 50px;
-    justify-content: right;
+    border-radius: 80px;
     pointer-events: none;
-    float: right;
+    /* float: right; */
 }
 
 h4 img {
@@ -222,7 +144,16 @@ footer {
     margin-top: auto;
     width: auto;
 }
+footer ul {
+    display: flex;
+    justify-content: center;
+}
 
+#container-space {
+    height: 200px;
+    width: 200px;
+    display: block;
+}
 .about-section {
     min-height: 150px;
     display: flex;
@@ -230,14 +161,48 @@ footer {
     align-items: center;
     background-color: whitesmoke;
 }
-
-.skills-section {
+.education-div {
     min-height: 150px;
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: lightgrey;
-    padding: 20px;
+    justify-content: space-between;
+    margin: 10px 0;
+    flex-direction: column;
+}
+.education-history , .certificates-history {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    text-align: left;
+}
+.education-history .school , .certificates-history a {
+    flex: 1;
+    margin: 0 10px;
+}
+
+.section{
+    flex: 1;
+    margin:0 10px;
+}
+
+.skills-projects {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+
+#certificates {
+    background-color: lightgrey;
+}
+#skills {
+    background-color: lightgrey;
+}
+#projects {
+    background-color: lightgrey;
 }
 
 #certificates-list {
@@ -257,7 +222,7 @@ footer {
     margin: 0px;
     padding: 0;
     display: flex;
-    text-align: center;
+    text-align:justify;
     justify-content: space-between;
 }
 
@@ -268,21 +233,14 @@ footer {
     vertical-align: middle;
 }
 
-div ul li {
+ul li {
     margin-bottom: 20px;
     align-items: center;
     justify-content: center;
 }
 
-.skills-list {
-    list-style-type: none;
-    margin-bottom: 10px;
-    display: flex;
-    align-items: center;
 
-}
-
-.skills-list img {
+ul li img {
     width: 30px;
     height: auto;
     margin-left: 10px;
@@ -304,13 +262,8 @@ div ul li {
     line-height: 1.6;
 }
 
-footer img {
-    width: 35px;
+.footer-imgs ul {
+    width: auto;
     height: auto;
-}
-
-footer img :nth-child(3) {
-    width: 40px;
-    height: 100px;
-    position: relative;
+    align-items: center;
 }
