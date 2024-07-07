@@ -80,15 +80,16 @@ section{
 }
 .profile-image {
     display: flex;
-    height: 300px;
-    width: 300px;
+    height: 40%;
+    width: 40%;
     margin: auto 0;
     overflow: hidden;
 }
 .profile-image img {
     border-radius: 50%;
-    width: 100%;
+    /* width: 100%; */
     height: auto;
+    max-width: 100%;
     display: block;
     pointer-events: none;
 }
@@ -108,10 +109,13 @@ section{
 #about-me {
     /* position: relative; */
     padding-top: 100px;
-    padding-bottom: 10px;
+    padding-bottom: 50px;
     background-color: rgba(255, 255, 255, 0.8);
     box-shadow: inset;
-    border-radius: 2%;
+    /* border-radius: 2%;
+    border-style: dashed;
+    border-width: 3px; */
+    height: auto;
     
 }
 
@@ -133,6 +137,10 @@ section{
 #education {
     /* position: relative; */
     background-color: aliceblue;
+    /* border-style: dashed;
+    border-width: 3px; */
+    margin-top: 40px;
+    height: auto;
 }
 
 .education-container {
@@ -164,6 +172,7 @@ section{
 .education-details-container p {
     font-size: 1.75rem;
 }
+
  #skills h2 {
     padding-bottom: 30px;
 } 
@@ -197,6 +206,10 @@ article .icons {
     width: 60px;
     height: auto;
 }
+img[src="images/hackerrank_logo-Pride-1.gif"] {
+    height: 40px;
+    width: 90px;
+}
 
 .grid-container {
     display: grid;
@@ -208,6 +221,8 @@ article .icons {
   }
   #skills {
     margin-top: 200px;
+    /* border-style: dashed;
+    border-width: 3px; */
   }
   .grid-container > div {
     background-color: rgba(255, 255, 255, 0.8);
@@ -231,8 +246,11 @@ article .icons {
   }
 
 #projects {
-    margin-top: 200px;
+    margin-top: 300px;
     margin-bottom: 200px;
+    /* border-style: dashed;
+    border-width: 3px; */
+
 
 }
 .projects-container {
@@ -564,7 +582,7 @@ footer h3 {
     gap: 10px; 
   }
   
-  .image-container img {
+.image-container img {
     max-width: 100%;
     height: auto; 
   }
