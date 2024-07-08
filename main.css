@@ -5,15 +5,17 @@
     font-family: Arial, sans-serif, Helvetica;
 
 }
+
 body {
     background-color: white;
     color: black;
-    
+
     /* margin: 0; */
     font-size: 18px;
     min-height: 100vh;
     overflow-x: hidden;
 }
+
 html {
     scroll-behavior: smooth;
 }
@@ -26,7 +28,7 @@ header {
     padding: 30px 100px;
     display: flex;
     justify-content: space-between;
-    background-color:  #2196F3;
+    background-color: #2196F3;
     align-items: center;
     color: black;
     padding: 10px 0px;
@@ -47,13 +49,16 @@ header {
     margin: 0px 10px;
     padding: 6px 16px;
 }
+
 .nav-bar a button:hover {
     background-color: green;
 
 }
+
 .nav-bar a:hover {
     color: blue;
 }
+
 .nav-bar a button {
     font-weight: 600;
     color: black;
@@ -65,19 +70,21 @@ header {
     padding: 12px 24px;
 }
 
-section{
+section {
     padding-top: 10vh;
     height: 90vh;
     margin: 0 10rem;
     box-sizing: border-box;
     min-height: fit-content;
 }
+
 #home {
     display: flex;
     justify-content: center;
     gap: 5rem;
     height: 80vh;
 }
+
 .profile-image {
     display: flex;
     height: 40%;
@@ -85,6 +92,7 @@ section{
     margin: auto 0;
     overflow: hidden;
 }
+
 .profile-image img {
     border-radius: 50%;
     /* width: 100%; */
@@ -98,14 +106,17 @@ section{
     align-self: center;
     text-align: center;
 }
+
 .heading {
     font-size: 2.5rem;
     text-align: center;
 }
+
 .home__p {
     font-size: 1.7rem;
     color: grey;
 }
+
 #about-me {
     /* position: relative; */
     padding-top: 100px;
@@ -116,24 +127,27 @@ section{
     border-style: dashed;
     border-width: 3px; */
     height: auto;
-    
+
 }
 
 .about__p {
     text-align: center;
     font-size: 1.7rem;
 }
+
 .section__container {
     display: flex;
     gap: 4rem;
     height: 80%;
     justify-content: center;
 }
+
 .school-logo {
     width: 30px;
     height: 30px;
     margin-left: 10px;
 }
+
 #education {
     /* position: relative; */
     background-color: aliceblue;
@@ -146,47 +160,54 @@ section{
 .education-container {
     display: flex;
     gap: 20px;
-    
+
 }
+
 .education-details-container {
     border: 1px solid;
     border-radius: 10px;
     padding: 20px;
     width: 500px;
-    height: 500px ;
+    height: 500px;
     text-align: center;
     padding-top: 100px;
     margin: 50px;
 }
+
 .education-details-container img {
     width: 80px;
     height: 80px;
     margin-bottom: 10px;
 }
+
 #education-margin {
     padding-top: 80px;
 }
+
 .education-details-container h4 {
     font-size: 2.5rem;
 }
+
 .education-details-container p {
     font-size: 1.75rem;
 }
 
- #skills h2 {
+#skills h2 {
     padding-bottom: 30px;
-} 
+}
 
 #skills-title {
     font-weight: 700;
     font-size: 1.75rem;
     margin-bottom: 2rem;
 }
+
 .skills-certificate-container {
     display: flex;
     justify-content: center;
     flex-direction: column;
 }
+
 .article-container {
     display: flex;
     text-align: initial;
@@ -195,17 +216,20 @@ section{
     gap: 2.5rem;
     justify-content: space-around;
 }
+
 article {
     display: flex;
     width: 10rem;
     justify-content: space-around;
     gap: 0.5rem;
 }
+
 article .icons {
     cursor: pointer;
     width: 60px;
     height: auto;
 }
+
 img[src="images/hackerrank_logo-Pride-1.gif"] {
     height: 40px;
     width: 90px;
@@ -218,32 +242,47 @@ img[src="images/hackerrank_logo-Pride-1.gif"] {
     background-color: #2196F3;
     padding: 10px;
     margin-bottom: 200px;
-  }
-  #skills {
+}
+
+#skills {
     margin-top: 200px;
     /* border-style: dashed;
     border-width: 3px; */
-  }
-  .grid-container > div {
+}
+
+.grid-container>div {
     background-color: rgba(255, 255, 255, 0.8);
     text-align: center;
     padding: 20px 0;
-    font-size: 30px;
-    
-  }
+    font-size: 30px; 
 
-  h1 {
-  font-size: large;
-  justify-content: center;
-  text-align: center;}
-  .h1 {
-  display: flex;
-  justify-content: space-between;
-  text-align: center;
-  }
-  .a-tag {
+}
+
+h1 {
+    font-size: large;
+    justify-content: center;
+    text-align: center;
+}
+
+.h1 {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.a-tag {
     text-decoration: none;
-  }
+    font-size: 25px;
+}
+article div div h4{
+   
+    font-size: 25px;
+}
+article div div p{
+   
+    font-size: 20px;
+}
+
 
 #projects {
     margin-top: 300px;
@@ -253,23 +292,27 @@ img[src="images/hackerrank_logo-Pride-1.gif"] {
 
 
 }
+
 .projects-container {
     display: flex;
     gap: 20px;
 }
+
 .projects-details-container {
     border: 1px solid;
     border-radius: 10px;
     padding: 20px;
     width: 400px;
-    height: 400px ;
+    height: 400px;
     text-align: center;
     padding-top: 100px;
     margin: 50px;
 }
+
 .project-paragraph {
     text-align: center;
 }
+
 .btn {
     font-weight: 600;
     color: black;
@@ -547,13 +590,13 @@ footer h3 {
 
 
 footer {
-    position: fixed; 
+    position: fixed;
     bottom: 0;
     width: 100%;
     padding: 30px 100px;
     display: flex;
-    background-color:  #2196F3;
-    align-items: center; 
+    background-color: #2196F3;
+    align-items: center;
     color: black;
     padding: 10px 0px;
     z-index: 100%;
@@ -562,6 +605,7 @@ footer {
     justify-content: center;
     margin-top: 300px;
 }
+
 /* .contact-list ul {
     width: auto;
     height: auto;
@@ -579,25 +623,29 @@ footer h3 {
 .image-container {
     display: flex;
     justify-content: center;
-    gap: 10px; 
-  }
-  
+    gap: 10px;
+}
+
 .image-container img {
     max-width: 100%;
-    height: auto; 
-  }
+    height: auto;
+}
+
 #footer__heading h3 {
     text-align: center;
     padding-bottom: 25px;
 }
+
 .social-links {
     display: flex;
     align-items: center;
     margin-top: 10px;
 }
+
 .social-links div {
     margin: 0 10px;
 }
+
 .footer-cl {
     display: flex;
     justify-content: center;
