@@ -381,8 +381,8 @@ footer {
     align-items: center;
 }
 /* @media only screen and (max-width: 768px) {
-    /* For mobile phones: */
-    [class*="section_container"] {
+     For mobile phones:
+   [class*="section_container"] {
       width: 100%;
     }
-  } */
+  }*/
