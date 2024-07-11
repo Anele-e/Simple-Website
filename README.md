@@ -1,4 +1,3 @@
-# Anele-e.github
 # Personal Website
 Hello, This is the README file of my simple website here is the github pages link https://anele-e.github.io/Simple-Website/
 
